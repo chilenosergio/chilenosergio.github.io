@@ -118,3 +118,13 @@
 			}
 
 /* Layers */
+
+	#titleBar .toggle {
+		height: 4em;
+		width: 6em;
+	}
+
+		#titleBar .toggle:before {
+			font-size: 14px;
+			width: 44px;
+		}

@@ -67,7 +67,27 @@
 
 /* Layers */
 
+	#titleBar {
+		background: #222;
+		color: #fff;
+		min-width: 320px;
 
+		.title {
+			color: #fff;
+			display: block;
+			font-weight: $font-weight-bold;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 1em;
+			width: 100%;
+
+			@if $side-header == 'right' {
+				text-align: left;
+			}
+			@else {
+				text-align: right;
+			}
+		}
 
 		.toggle {
 			@include icon;

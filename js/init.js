@@ -20,6 +20,14 @@
 				config: {
 					mode: 'transform'
 				},
+				titleBar: {
+					breakpoints: 'medium',
+					width: '100%',
+					height: 44,
+					position: 'top-left',
+					side: 'top',
+					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span><span class="title" data-action="copyText" data-args="logo"></span>'
+				},
 				sidePanel: {
 					breakpoints: 'medium',
 					hidden: true,
